@@ -13,7 +13,7 @@ API_HASH = os.environ.get("API_HASH", "fd980dbd069e0b45d0dec91f7e616bad")
 ADMINS = int(os.environ.get("ADMINS", "5456381819"))
 
 # Your Mongodb Database Url
-DB_URI = os.environ.get("DB_URI", "")
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://manugowda2306:manugowda2306@cluster0.ix1rv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "vjsavecontentbot")
 
 # If You Want Error Message In Your Personal Message Then Turn It True Else If You Don't Want Then Flase
